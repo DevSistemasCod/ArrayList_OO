@@ -57,7 +57,8 @@ public class Principal {
 			System.out.print("Escolha uma opcao: ");
 			
 			opcao = lerDados.nextInt();
-			lerDados.nextLine();
+			lerDados.nextLine(); //(essa linha deve ser adicionada pois consome o caractere \n)
+			//outra opção é fazer um cast do tipo opcao = Integer.parseInt(lerDados.nextLine());
 			menu(lerDados, opcao, tarefas);
 
 		} while (opcao != 0);
