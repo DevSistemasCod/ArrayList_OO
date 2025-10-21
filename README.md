@@ -21,4 +21,7 @@
 
   Ao fim teste a classe implementada por meio de uma classe contendo o método main.
 
+---------
+4 - Implemente um programa em Java que armazene uma lista de alunos e suas respectivas notas em um ArrayList. Escreva um método que permita adicionar um novo aluno na lista com suas respectivas notas. Em seguida, um método que calcule a média das notas de um determinado aluno, buscando-o pelo seu nome. Utilize o Iterator para percorrer a lista de alunos. 
 
+ Para testar sua implementação, crie uma classe principal com o método main que permita ao usuário adicionar novos alunos e notas, bem como buscar a média de um aluno específico.
